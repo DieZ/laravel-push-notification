@@ -8,10 +8,17 @@
             "email": "davi@andradenunes.org"
         }
     ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/turbo124/NotificationPusher",
+          "reference": "dev-master"
+        }
+    ],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "4.*",
-        "sly/notification-pusher": "2.2.12"
+        "sly/notification-pusher": "3.*"
     },
     "autoload": {
         "psr-0": {
